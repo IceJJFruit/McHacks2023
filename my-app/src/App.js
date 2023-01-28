@@ -1,21 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-
+import SearchBar from "./components/SearchBar"
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to test.
+          Ingredients: <SearchBar/>
+        </p>
+        <p>
+          Time to make goes here.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://tasty.co/"
         >
-          Learn React
+          Link to recipe site.
         </a>
       </header>
     </div>
