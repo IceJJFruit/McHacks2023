@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import makeURL from './makeURL';
 import './App.css';
 import SearchBar from "./components/SearchBar"
 function App() {
@@ -11,6 +12,9 @@ function App() {
         </p>
         <p>
           Time to make goes here.
+        </p>
+        <p>
+          Edit <code>src/App.js</code> and save to test.
         </p>
         <a
           className="App-link"
