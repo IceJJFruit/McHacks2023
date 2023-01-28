@@ -1,21 +1,19 @@
 import logo from './logo.svg';
-import makeURL from './makeURL';
+import MakeURL from './components/MakeURL';
 import './App.css';
 import SearchBar from "./components/SearchBar"
+
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Ingredients: <SearchBar/>
+          <MakeURL/>
         </p>
-        <p>
-          Time to make goes here.
-        </p>
-        <p>
-          Edit <code>src/App.js</code> and save to test.
-        </p>
+        
         <a
           className="App-link"
           href="https://tasty.co/"
