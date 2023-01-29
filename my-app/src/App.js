@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import MakeURL from './components/MakeURL';
 import './App.css';
-import SearchBar from "./components/SearchBar"
+import TagsInputs from "./components/TagsInputs"
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Ingredients: <SearchBar/>
+          Ingredients: <TagsInputs/>
           <MakeURL/>
         </p>
         
