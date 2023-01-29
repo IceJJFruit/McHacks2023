@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: bold;
     
 }
@@ -29,17 +29,17 @@ body{
 }
 
 .tag-item{
-    background-color: #825c5c; /*tag color*/
+    background-color: #d6d6d6; /*tag color*/
     display: inline-block;
     padding: .5em .75em;
     border-radius: 20px;
 }
 .tag-item .close{
-    height: 20 px;
-    width: 20 px;
-    background-color: rgb(10, 4, 4);
+    height: 30 px;
+    width: 30 px;
+    background-color: #d6d6d6;
     display: inline-block;
-    color: rgb(239, 221, 221); /* x color*/
+    color: rgb(29, 29, 29); /* x color*/
     border-radius: 50%;
     text-align: center;
     display: inline-flex;

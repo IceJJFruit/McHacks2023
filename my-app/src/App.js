@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import MakeURL from './components/MakeURL';
 import './App.css';
 import TagsInputs from "./components/TagsInputs"
