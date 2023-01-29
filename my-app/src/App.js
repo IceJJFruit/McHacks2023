@@ -12,15 +12,9 @@ function App() {
 
         <p>
           Ingredients: <TagsInputs/>
-          <MakeURL/>
+          {/* <MakeURL/> */}
         </p>
         
-        <a
-          className="App-link"
-          href="https://tasty.co/"
-        >
-          Link to recipe site.
-        </a>
       </header>
     </div>
   );
