@@ -7,8 +7,10 @@ function App() {
   return (
     
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
+      </header> */}
         <img src={logo} className="App-logo" alt="logo" />
+
         <p>
           Ingredients: <TagsInputs/>
           <MakeURL/>
@@ -20,7 +22,6 @@ function App() {
         >
           Link to recipe site.
         </a>
-      </header>
     </div>
   );
 }
